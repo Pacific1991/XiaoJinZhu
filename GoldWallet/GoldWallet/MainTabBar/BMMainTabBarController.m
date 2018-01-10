@@ -82,12 +82,12 @@ static NSString * const KeyTitle = @"KeyTitle";
     if (index == 0) {           //首页
         
         nav = [[HCBaseNavigationController alloc] initWithRootViewController:[[HCHomeViewController alloc] init]];
-    } else if (index == 1) {    //产品
-        
-        nav = [[HCBaseNavigationController alloc] initWithRootViewController:[[HCProductViewController alloc] init]];
-    } else if (index == 2) {    //商城
+    } else if (index == 1) {    //商城
         
         nav = [[HCBaseNavigationController alloc] initWithRootViewController:[[HCMallViewController alloc] init]];
+    } else if (index == 2) {    //服务
+        
+        nav = [[HCBaseNavigationController alloc] initWithRootViewController:[[HCProductViewController alloc] init]];
     } else {                    //我的
         nav = [[HCBaseNavigationController alloc] initWithRootViewController:[[HCMineViewController alloc] init]];
     }

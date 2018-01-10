@@ -19,11 +19,14 @@
     UINavigationBar * navigationBar = [UINavigationBar appearance];
     navigationBar.translucent = YES;
 //    [navigationBar setShadowImage:[[UIImage alloc] init]];
-    [navigationBar setShadowImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"#DEDEDE"]]];
+    [navigationBar setShadowImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"#FFFFFF"]]];
 //    [navigationBar setBarTintColor:[UIColor whiteColor]];
-    [navigationBar setTintColor:HCColor(74.0, 74.0, 74.0)];   // 返回按钮颜色
+    [navigationBar setTintColor:[UIColor colorWithHexString:@"FFFFFF"]];   // 返回按钮颜色
     [navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
-    [navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#4a4a4a"], NSFontAttributeName:[UIFont boldSystemFontOfSize:17]}];
+    [navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#FFFFFF"], NSFontAttributeName:[UIFont boldSystemFontOfSize:19*kWidthScale()]}];
+    
+    [navigationBar setBackgroundImage:[UIImage imageNamed:@"img_navigation"] forBarMetrics:UIBarMetricsDefault];
+
 //    UIImage *image = [UIImage imageNamed:@"leftarrow"];
 //    image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 //    navigationBar.backIndicatorImage = image;
