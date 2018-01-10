@@ -118,6 +118,7 @@
 		7ECBC1C12005B65200A9B720 /* HCProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1C02005B65200A9B720 /* HCProductViewController.m */; };
 		7ECBC1C42005B66100A9B720 /* HCMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1C32005B66100A9B720 /* HCMallViewController.m */; };
 		7ECBC1C72005C72900A9B720 /* HCHomeSearcheHeadview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1C62005C72900A9B720 /* HCHomeSearcheHeadview.m */; };
+		7ECBC1CF2005CE7100A9B720 /* HCHomeDetailApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1CE2005CE7100A9B720 /* HCHomeDetailApi.m */; };
 		9499DDEE011FA487D49CF8AF /* libPods-GoldWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 592DB8903A6D1DD45F8A01AA /* libPods-GoldWallet.a */; };
 		C1EEC905A415020B6CFBD1C6 /* libPods-GoldWalletUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F2B7634FF4C9534DF33FAD /* libPods-GoldWalletUITests.a */; };
 /* End PBXBuildFile section */
@@ -372,6 +373,8 @@
 		7ECBC1C32005B66100A9B720 /* HCMallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCMallViewController.m; sourceTree = "<group>"; };
 		7ECBC1C52005C72900A9B720 /* HCHomeSearcheHeadview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCHomeSearcheHeadview.h; sourceTree = "<group>"; };
 		7ECBC1C62005C72900A9B720 /* HCHomeSearcheHeadview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCHomeSearcheHeadview.m; sourceTree = "<group>"; };
+		7ECBC1CD2005CE7100A9B720 /* HCHomeDetailApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCHomeDetailApi.h; sourceTree = "<group>"; };
+		7ECBC1CE2005CE7100A9B720 /* HCHomeDetailApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCHomeDetailApi.m; sourceTree = "<group>"; };
 		884D37559FC791E859E6412E /* Pods-GoldWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldWalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldWalletUITests/Pods-GoldWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1CFE763A86C0E36CFD9F7D /* Pods-GoldWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldWallet/Pods-GoldWallet.debug.xcconfig"; sourceTree = "<group>"; };
 		E1F2B7634FF4C9534DF33FAD /* libPods-GoldWalletUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoldWalletUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -736,6 +739,11 @@
 		7ECBC0A32005AE9300A9B720 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				7ECBC1C82005CE5C00A9B720 /* HomeClass */,
+				7ECBC1CC2005CE5C00A9B720 /* LoginClass */,
+				7ECBC1CB2005CE5C00A9B720 /* MallClass */,
+				7ECBC1CA2005CE5C00A9B720 /* MineClass */,
+				7ECBC1C92005CE5C00A9B720 /* ProductClass */,
 				7ECBC0A42005AE9300A9B720 /* Accessory */,
 				7ECBC0AD2005AE9300A9B720 /* Exp */,
 				7ECBC0B62005AE9300A9B720 /* NetworkBaseClass */,
@@ -1163,6 +1171,43 @@
 			path = HUDGategory;
 			sourceTree = "<group>";
 		};
+		7ECBC1C82005CE5C00A9B720 /* HomeClass */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBC1CD2005CE7100A9B720 /* HCHomeDetailApi.h */,
+				7ECBC1CE2005CE7100A9B720 /* HCHomeDetailApi.m */,
+			);
+			path = HomeClass;
+			sourceTree = "<group>";
+		};
+		7ECBC1C92005CE5C00A9B720 /* ProductClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProductClass;
+			sourceTree = "<group>";
+		};
+		7ECBC1CA2005CE5C00A9B720 /* MineClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MineClass;
+			sourceTree = "<group>";
+		};
+		7ECBC1CB2005CE5C00A9B720 /* MallClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MallClass;
+			sourceTree = "<group>";
+		};
+		7ECBC1CC2005CE5C00A9B720 /* LoginClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginClass;
+			sourceTree = "<group>";
+		};
 		87760BBEF3E53C9EB0C498DF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1506,6 +1551,7 @@
 				7ECBC1532005AE9400A9B720 /* YTKChainRequest+AnimatingAccessory.m in Sources */,
 				7ECBC1782005AE9400A9B720 /* PYPhotoCell.m in Sources */,
 				7ECBC1562005AE9400A9B720 /* RegisterApi.m in Sources */,
+				7ECBC1CF2005CE7100A9B720 /* HCHomeDetailApi.m in Sources */,
 				7ECBC15D2005AE9400A9B720 /* YTKChainRequest.m in Sources */,
 				7ECBC1342005AE9400A9B720 /* UIButton+HCGategory.m in Sources */,
 				7ECBC1B22005B31D00A9B720 /* HCAccountModel.m in Sources */,
