@@ -119,6 +119,24 @@
 		7ECBC1C42005B66100A9B720 /* HCMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1C32005B66100A9B720 /* HCMallViewController.m */; };
 		7ECBC1C72005C72900A9B720 /* HCHomeSearcheHeadview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1C62005C72900A9B720 /* HCHomeSearcheHeadview.m */; };
 		7ECBC1CF2005CE7100A9B720 /* HCHomeDetailApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1CE2005CE7100A9B720 /* HCHomeDetailApi.m */; };
+		7ECBC1D22005F76D00A9B720 /* HCMallListVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1D12005F76D00A9B720 /* HCMallListVIew.m */; };
+		7ECBC1D52005F83600A9B720 /* HCMallHeadSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1D42005F83600A9B720 /* HCMallHeadSearchView.m */; };
+		7ECBC1D82006036C00A9B720 /* HCMallListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1D72006036C00A9B720 /* HCMallListCollectionViewCell.m */; };
+		7ECBC1DB20060E6800A9B720 /* HCSearchResultMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1DA20060E6800A9B720 /* HCSearchResultMallViewController.m */; };
+		7ECBC1DE2006133700A9B720 /* HCHomeSearchNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1DD2006133700A9B720 /* HCHomeSearchNavView.m */; };
+		7ECBC1E12006152700A9B720 /* HCShopCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1E02006152700A9B720 /* HCShopCardViewController.m */; };
+		7ECBC1E42006176600A9B720 /* HCMallSectionCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1E32006176600A9B720 /* HCMallSectionCollectionReusableView.m */; };
+		7ECBC1E720061AD900A9B720 /* HCBuyCarTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1E520061AD900A9B720 /* HCBuyCarTableView.m */; };
+		7ECBC1EA20061B0F00A9B720 /* HCBuyCarToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1E820061B0E00A9B720 /* HCBuyCarToolView.m */; };
+		7ECBC1ED20061B3200A9B720 /* HCBuyCarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1EB20061B3200A9B720 /* HCBuyCarModel.m */; };
+		7ECBC1F020061B9500A9B720 /* HCShopCarRemoveGoodsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1EF20061B9500A9B720 /* HCShopCarRemoveGoodsApi.m */; };
+		7ECBC1F420061C5000A9B720 /* HCBuyCarFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1F120061C5000A9B720 /* HCBuyCarFooterView.m */; };
+		7ECBC1F520061C5000A9B720 /* HCBuyCarFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ECBC1F220061C5000A9B720 /* HCBuyCarFooterView.xib */; };
+		7ECBC1F820061CA600A9B720 /* HCBuyCarGoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1F720061CA600A9B720 /* HCBuyCarGoodTableViewCell.m */; };
+		7ECBC1FB20061CD100A9B720 /* HCShoppingCartListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1FA20061CD100A9B720 /* HCShoppingCartListApi.m */; };
+		7ECBC1FE20061ED800A9B720 /* HCHomeGoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC1FC20061ED800A9B720 /* HCHomeGoodModel.m */; };
+		7ECBC20120061F1900A9B720 /* HCChangeShopCarNumApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC20020061F1900A9B720 /* HCChangeShopCarNumApi.m */; };
+		7ECBC2042006260C00A9B720 /* HCGoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBC2032006260C00A9B720 /* HCGoodDetailViewController.m */; };
 		9499DDEE011FA487D49CF8AF /* libPods-GoldWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 592DB8903A6D1DD45F8A01AA /* libPods-GoldWallet.a */; };
 		C1EEC905A415020B6CFBD1C6 /* libPods-GoldWalletUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F2B7634FF4C9534DF33FAD /* libPods-GoldWalletUITests.a */; };
 /* End PBXBuildFile section */
@@ -375,6 +393,41 @@
 		7ECBC1C62005C72900A9B720 /* HCHomeSearcheHeadview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCHomeSearcheHeadview.m; sourceTree = "<group>"; };
 		7ECBC1CD2005CE7100A9B720 /* HCHomeDetailApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCHomeDetailApi.h; sourceTree = "<group>"; };
 		7ECBC1CE2005CE7100A9B720 /* HCHomeDetailApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCHomeDetailApi.m; sourceTree = "<group>"; };
+		7ECBC1D02005F76D00A9B720 /* HCMallListVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCMallListVIew.h; sourceTree = "<group>"; };
+		7ECBC1D12005F76D00A9B720 /* HCMallListVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCMallListVIew.m; sourceTree = "<group>"; };
+		7ECBC1D32005F83600A9B720 /* HCMallHeadSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCMallHeadSearchView.h; sourceTree = "<group>"; };
+		7ECBC1D42005F83600A9B720 /* HCMallHeadSearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCMallHeadSearchView.m; sourceTree = "<group>"; };
+		7ECBC1D62006036C00A9B720 /* HCMallListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCMallListCollectionViewCell.h; sourceTree = "<group>"; };
+		7ECBC1D72006036C00A9B720 /* HCMallListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCMallListCollectionViewCell.m; sourceTree = "<group>"; };
+		7ECBC1D920060E6800A9B720 /* HCSearchResultMallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCSearchResultMallViewController.h; sourceTree = "<group>"; };
+		7ECBC1DA20060E6800A9B720 /* HCSearchResultMallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCSearchResultMallViewController.m; sourceTree = "<group>"; };
+		7ECBC1DC2006133700A9B720 /* HCHomeSearchNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCHomeSearchNavView.h; sourceTree = "<group>"; };
+		7ECBC1DD2006133700A9B720 /* HCHomeSearchNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCHomeSearchNavView.m; sourceTree = "<group>"; };
+		7ECBC1DF2006152700A9B720 /* HCShopCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCShopCardViewController.h; sourceTree = "<group>"; };
+		7ECBC1E02006152700A9B720 /* HCShopCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCShopCardViewController.m; sourceTree = "<group>"; };
+		7ECBC1E22006176600A9B720 /* HCMallSectionCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCMallSectionCollectionReusableView.h; sourceTree = "<group>"; };
+		7ECBC1E32006176600A9B720 /* HCMallSectionCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCMallSectionCollectionReusableView.m; sourceTree = "<group>"; };
+		7ECBC1E520061AD900A9B720 /* HCBuyCarTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBuyCarTableView.m; sourceTree = "<group>"; };
+		7ECBC1E620061AD900A9B720 /* HCBuyCarTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBuyCarTableView.h; sourceTree = "<group>"; };
+		7ECBC1E820061B0E00A9B720 /* HCBuyCarToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBuyCarToolView.m; sourceTree = "<group>"; };
+		7ECBC1E920061B0F00A9B720 /* HCBuyCarToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBuyCarToolView.h; sourceTree = "<group>"; };
+		7ECBC1EB20061B3200A9B720 /* HCBuyCarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBuyCarModel.m; sourceTree = "<group>"; };
+		7ECBC1EC20061B3200A9B720 /* HCBuyCarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBuyCarModel.h; sourceTree = "<group>"; };
+		7ECBC1EE20061B9500A9B720 /* HCShopCarRemoveGoodsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCShopCarRemoveGoodsApi.h; sourceTree = "<group>"; };
+		7ECBC1EF20061B9500A9B720 /* HCShopCarRemoveGoodsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCShopCarRemoveGoodsApi.m; sourceTree = "<group>"; };
+		7ECBC1F120061C5000A9B720 /* HCBuyCarFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBuyCarFooterView.m; sourceTree = "<group>"; };
+		7ECBC1F220061C5000A9B720 /* HCBuyCarFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCBuyCarFooterView.xib; sourceTree = "<group>"; };
+		7ECBC1F320061C5000A9B720 /* HCBuyCarFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBuyCarFooterView.h; sourceTree = "<group>"; };
+		7ECBC1F620061CA600A9B720 /* HCBuyCarGoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBuyCarGoodTableViewCell.h; sourceTree = "<group>"; };
+		7ECBC1F720061CA600A9B720 /* HCBuyCarGoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBuyCarGoodTableViewCell.m; sourceTree = "<group>"; };
+		7ECBC1F920061CD100A9B720 /* HCShoppingCartListApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCShoppingCartListApi.h; sourceTree = "<group>"; };
+		7ECBC1FA20061CD100A9B720 /* HCShoppingCartListApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCShoppingCartListApi.m; sourceTree = "<group>"; };
+		7ECBC1FC20061ED800A9B720 /* HCHomeGoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCHomeGoodModel.m; sourceTree = "<group>"; };
+		7ECBC1FD20061ED800A9B720 /* HCHomeGoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCHomeGoodModel.h; sourceTree = "<group>"; };
+		7ECBC1FF20061F1900A9B720 /* HCChangeShopCarNumApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCChangeShopCarNumApi.h; sourceTree = "<group>"; };
+		7ECBC20020061F1900A9B720 /* HCChangeShopCarNumApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCChangeShopCarNumApi.m; sourceTree = "<group>"; };
+		7ECBC2022006260C00A9B720 /* HCGoodDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCGoodDetailViewController.h; sourceTree = "<group>"; };
+		7ECBC2032006260C00A9B720 /* HCGoodDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCGoodDetailViewController.m; sourceTree = "<group>"; };
 		884D37559FC791E859E6412E /* Pods-GoldWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldWalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldWalletUITests/Pods-GoldWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1CFE763A86C0E36CFD9F7D /* Pods-GoldWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldWallet/Pods-GoldWallet.debug.xcconfig"; sourceTree = "<group>"; };
 		E1F2B7634FF4C9534DF33FAD /* libPods-GoldWalletUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoldWalletUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -502,6 +555,12 @@
 			children = (
 				7ECBC1C22005B66100A9B720 /* HCMallViewController.h */,
 				7ECBC1C32005B66100A9B720 /* HCMallViewController.m */,
+				7ECBC1D920060E6800A9B720 /* HCSearchResultMallViewController.h */,
+				7ECBC1DA20060E6800A9B720 /* HCSearchResultMallViewController.m */,
+				7ECBC1DF2006152700A9B720 /* HCShopCardViewController.h */,
+				7ECBC1E02006152700A9B720 /* HCShopCardViewController.m */,
+				7ECBC2022006260C00A9B720 /* HCGoodDetailViewController.h */,
+				7ECBC2032006260C00A9B720 /* HCGoodDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -509,6 +568,10 @@
 		7ECBC0462005AE9300A9B720 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7ECBC1FD20061ED800A9B720 /* HCHomeGoodModel.h */,
+				7ECBC1FC20061ED800A9B720 /* HCHomeGoodModel.m */,
+				7ECBC1EC20061B3200A9B720 /* HCBuyCarModel.h */,
+				7ECBC1EB20061B3200A9B720 /* HCBuyCarModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -516,6 +579,25 @@
 		7ECBC0472005AE9300A9B720 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7ECBC1D02005F76D00A9B720 /* HCMallListVIew.h */,
+				7ECBC1D12005F76D00A9B720 /* HCMallListVIew.m */,
+				7ECBC1D32005F83600A9B720 /* HCMallHeadSearchView.h */,
+				7ECBC1D42005F83600A9B720 /* HCMallHeadSearchView.m */,
+				7ECBC1D62006036C00A9B720 /* HCMallListCollectionViewCell.h */,
+				7ECBC1D72006036C00A9B720 /* HCMallListCollectionViewCell.m */,
+				7ECBC1DC2006133700A9B720 /* HCHomeSearchNavView.h */,
+				7ECBC1DD2006133700A9B720 /* HCHomeSearchNavView.m */,
+				7ECBC1E22006176600A9B720 /* HCMallSectionCollectionReusableView.h */,
+				7ECBC1E32006176600A9B720 /* HCMallSectionCollectionReusableView.m */,
+				7ECBC1E620061AD900A9B720 /* HCBuyCarTableView.h */,
+				7ECBC1E520061AD900A9B720 /* HCBuyCarTableView.m */,
+				7ECBC1E920061B0F00A9B720 /* HCBuyCarToolView.h */,
+				7ECBC1E820061B0E00A9B720 /* HCBuyCarToolView.m */,
+				7ECBC1F320061C5000A9B720 /* HCBuyCarFooterView.h */,
+				7ECBC1F120061C5000A9B720 /* HCBuyCarFooterView.m */,
+				7ECBC1F220061C5000A9B720 /* HCBuyCarFooterView.xib */,
+				7ECBC1F620061CA600A9B720 /* HCBuyCarGoodTableViewCell.h */,
+				7ECBC1F720061CA600A9B720 /* HCBuyCarGoodTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1197,6 +1279,12 @@
 		7ECBC1CB2005CE5C00A9B720 /* MallClass */ = {
 			isa = PBXGroup;
 			children = (
+				7ECBC1EE20061B9500A9B720 /* HCShopCarRemoveGoodsApi.h */,
+				7ECBC1EF20061B9500A9B720 /* HCShopCarRemoveGoodsApi.m */,
+				7ECBC1F920061CD100A9B720 /* HCShoppingCartListApi.h */,
+				7ECBC1FA20061CD100A9B720 /* HCShoppingCartListApi.m */,
+				7ECBC1FF20061F1900A9B720 /* HCChangeShopCarNumApi.h */,
+				7ECBC20020061F1900A9B720 /* HCChangeShopCarNumApi.m */,
 			);
 			path = MallClass;
 			sourceTree = "<group>";
@@ -1341,6 +1429,7 @@
 				7ECBC01C2005AA6A00A9B720 /* Assets.xcassets in Resources */,
 				7ECBC1762005AE9400A9B720 /* PYPhotosView.bundle in Resources */,
 				7ECBC01A2005AA6A00A9B720 /* Main.storyboard in Resources */,
+				7ECBC1F520061C5000A9B720 /* HCBuyCarFooterView.xib in Resources */,
 				7ECBC1652005AE9400A9B720 /* address.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1530,20 +1619,24 @@
 				7ECBC1682005AE9400A9B720 /* Province.m in Sources */,
 				7ECBC1A62005B1C300A9B720 /* HUD.m in Sources */,
 				7ECBC15F2005AE9400A9B720 /* YTKNetworkAgent.m in Sources */,
+				7ECBC1E42006176600A9B720 /* HCMallSectionCollectionReusableView.m in Sources */,
 				7ECBC1BB2005B63400A9B720 /* HCHomeViewController.m in Sources */,
 				7ECBC1392005AE9400A9B720 /* UIImageView+HRCornerRadius.m in Sources */,
 				7ECBC16F2005AE9400A9B720 /* PYPhotosNavigationController.m in Sources */,
 				7ECBC1622005AE9400A9B720 /* YTKRequest.m in Sources */,
 				7ECBC1542005AE9400A9B720 /* GetImageApi.m in Sources */,
 				7ECBC1592005AE9400A9B720 /* HCUrlArgumentsFilter.m in Sources */,
+				7ECBC1EA20061B0F00A9B720 /* HCBuyCarToolView.m in Sources */,
 				7ECBC1452005AE9400A9B720 /* HCHealthKitManage.m in Sources */,
 				7ECBC1752005AE9400A9B720 /* PYProgressView.m in Sources */,
 				7ECBC1A52005B1C300A9B720 /* HCTextView.m in Sources */,
 				7ECBC1C72005C72900A9B720 /* HCHomeSearcheHeadview.m in Sources */,
 				7ECBC1B52005B43400A9B720 /* HealthUserModel.m in Sources */,
 				7ECBC1512005AE9400A9B720 /* YTKBaseRequest+AnimatingAccessory.m in Sources */,
+				7ECBC1F020061B9500A9B720 /* HCShopCarRemoveGoodsApi.m in Sources */,
 				7ECBC1822005AE9400A9B720 /* UIView+SDExtension.m in Sources */,
 				7ECBC1502005AE9400A9B720 /* YTKAnimatingRequestAccessory.m in Sources */,
+				7ECBC1DB20060E6800A9B720 /* HCSearchResultMallViewController.m in Sources */,
 				7ECBC1362005AE9400A9B720 /* UIDevice+HCGategory.m in Sources */,
 				7ECBC17D2005AE9400A9B720 /* TAAnimatedDotView.m in Sources */,
 				7ECBC13A2005AE9400A9B720 /* UITextField+HCGategory.m in Sources */,
@@ -1554,14 +1647,18 @@
 				7ECBC1CF2005CE7100A9B720 /* HCHomeDetailApi.m in Sources */,
 				7ECBC15D2005AE9400A9B720 /* YTKChainRequest.m in Sources */,
 				7ECBC1342005AE9400A9B720 /* UIButton+HCGategory.m in Sources */,
+				7ECBC1E720061AD900A9B720 /* HCBuyCarTableView.m in Sources */,
+				7ECBC1FB20061CD100A9B720 /* HCShoppingCartListApi.m in Sources */,
 				7ECBC1B22005B31D00A9B720 /* HCAccountModel.m in Sources */,
 				7ECBC1A42005B1C300A9B720 /* HCStraRatingView.m in Sources */,
 				7ECBC1442005AE9400A9B720 /* HCFileTool.m in Sources */,
+				7ECBC1FE20061ED800A9B720 /* HCHomeGoodModel.m in Sources */,
 				7ECBC1472005AE9400A9B720 /* HCUpdateAppTool.m in Sources */,
 				7ECBC1C42005B66100A9B720 /* HCMallViewController.m in Sources */,
 				7ECBC1732005AE9400A9B720 /* PYPhoto.m in Sources */,
 				7ECBC17B2005AE9400A9B720 /* NSData+SDDataCache.m in Sources */,
 				7ECBC1A32005B1C300A9B720 /* HCPptionsSliderView.m in Sources */,
+				7ECBC1E12006152700A9B720 /* HCShopCardViewController.m in Sources */,
 				7ECBC1422005AE9400A9B720 /* HCAccountTool.m in Sources */,
 				7ECBC1352005AE9400A9B720 /* UIColor+HQ8902.m in Sources */,
 				7ECBC14C2005AE9400A9B720 /* Base64.m in Sources */,
@@ -1574,6 +1671,7 @@
 				7ECBC1792005AE9400A9B720 /* PYPhotosView.m in Sources */,
 				7ECBC1612005AE9400A9B720 /* YTKNetworkPrivate.m in Sources */,
 				7ECBC1582005AE9400A9B720 /* HCBaseRequest.m in Sources */,
+				7ECBC1D22005F76D00A9B720 /* HCMallListVIew.m in Sources */,
 				7ECBC1602005AE9400A9B720 /* YTKNetworkConfig.m in Sources */,
 				7ECBC15E2005AE9400A9B720 /* YTKChainRequestAgent.m in Sources */,
 				7ECBC14E2005AE9400A9B720 /* HJMd5.m in Sources */,
@@ -1582,13 +1680,18 @@
 				7ECBC1522005AE9400A9B720 /* YTKBatchRequest+AnimatingAccessory.m in Sources */,
 				7ECBC13F2005AE9400A9B720 /* HCDataBaseModel.m in Sources */,
 				7ECBC1AE2005B25C00A9B720 /* HCUserDefaultManager.m in Sources */,
+				7ECBC20120061F1900A9B720 /* HCChangeShopCarNumApi.m in Sources */,
 				7ECBC1B82005B4F600A9B720 /* AppDelegate+HCGategory.m in Sources */,
 				7ECBC1382005AE9400A9B720 /* UIImage+HCGategory.m in Sources */,
 				7ECBC0142005AA6A00A9B720 /* AppDelegate.m in Sources */,
 				7ECBC1802005AE9400A9B720 /* SDCollectionViewCell.m in Sources */,
+				7ECBC1DE2006133700A9B720 /* HCHomeSearchNavView.m in Sources */,
 				7ECBC1C12005B65200A9B720 /* HCProductViewController.m in Sources */,
 				7ECBC15A2005AE9400A9B720 /* YTKBaseRequest.m in Sources */,
+				7ECBC1F420061C5000A9B720 /* HCBuyCarFooterView.m in Sources */,
+				7ECBC1F820061CA600A9B720 /* HCBuyCarGoodTableViewCell.m in Sources */,
 				7ECBC1772005AE9400A9B720 /* PYPhotoBrowseView.m in Sources */,
+				7ECBC1ED20061B3200A9B720 /* HCBuyCarModel.m in Sources */,
 				7ECBC16C2005AE9400A9B720 /* FLAnimatedImageView+WebCache.m in Sources */,
 				7ECBC1302005AE9400A9B720 /* NSObject+WHC_Model.m in Sources */,
 				7ECBC13C2005AE9400A9B720 /* UIView+HCEqualMargin.m in Sources */,
@@ -1602,10 +1705,12 @@
 				7ECBC13E2005AE9400A9B720 /* UIViewController+HCCategory.m in Sources */,
 				7ECBC1832005AE9400A9B720 /* BMMainTabBarController.m in Sources */,
 				7ECBC1AD2005B25C00A9B720 /* HCDataBaseManager.m in Sources */,
+				7ECBC1D52005F83600A9B720 /* HCMallHeadSearchView.m in Sources */,
 				7ECBC13D2005AE9400A9B720 /* UIView+HCGategory.m in Sources */,
 				7ECBC1672005AE9400A9B720 /* City.m in Sources */,
 				7ECBC1642005AE9400A9B720 /* YTKNetworkAgent+HCGategory.m in Sources */,
 				7ECBC12D2005AE9400A9B720 /* UIViewController+HideBottomLine.m in Sources */,
+				7ECBC1D82006036C00A9B720 /* HCMallListCollectionViewCell.m in Sources */,
 				7ECBC1742005AE9400A9B720 /* PYPhotoBrowserConst.m in Sources */,
 				7ECBC1332005AE9400A9B720 /* UIButton+Extension.m in Sources */,
 				7ECBC1AF2005B25C00A9B720 /* HealthHjManger.m in Sources */,
@@ -1622,6 +1727,7 @@
 				7ECBC12C2005AE9400A9B720 /* HCBaseViewController.m in Sources */,
 				7ECBC12B2005AE9400A9B720 /* HCBaseNavigationController.m in Sources */,
 				7ECBC1402005AE9400A9B720 /* HCPhotoPickerTool.m in Sources */,
+				7ECBC2042006260C00A9B720 /* HCGoodDetailViewController.m in Sources */,
 				7ECBC16E2005AE9400A9B720 /* UIView+PYExtension.m in Sources */,
 				7ECBC1812005AE9400A9B720 /* SDCycleScrollView.m in Sources */,
 				7ECBC1A02005B1C300A9B720 /* HCCustomProgressView.m in Sources */,
