@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="HW2-jn-0ki" customClass="HCBuyCarFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="8"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="tqn-RD-Lai" customClass="HCBuyCarCollectionView">
+                    <rect key="frame" x="0.0" y="0.0" width="395" height="8"/>
+                    <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <collectionViewLayout key="collectionViewLayout" id="Ogk-Xp-vuU" customClass="HCBuyCarCollectionFlowLayout"/>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="tqn-RD-Lai" firstAttribute="top" secondItem="HW2-jn-0ki" secondAttribute="top" id="FDM-wA-zFj"/>
+                <constraint firstAttribute="bottom" secondItem="tqn-RD-Lai" secondAttribute="bottom" id="FgQ-SY-FJC"/>
+                <constraint firstItem="tqn-RD-Lai" firstAttribute="leading" secondItem="HW2-jn-0ki" secondAttribute="leading" id="P5N-PT-CKd"/>
+                <constraint firstAttribute="trailing" secondItem="tqn-RD-Lai" secondAttribute="trailing" id="Zkl-ft-NOX"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="listView" destination="tqn-RD-Lai" id="rTg-3N-Aqh"/>
+            </connections>
+            <point key="canvasLocation" x="527.5" y="-60.5"/>
+        </view>
+    </objects>
+</document>
