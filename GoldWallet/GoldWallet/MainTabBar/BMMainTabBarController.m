@@ -42,13 +42,13 @@ static NSString * const KeyTitle = @"KeyTitle";
                                  
                                  KeyImageName:@"tab_shop_normal",
                                  KeySelectedImageName:@"tab_shop_selected",
-                                 KeyTitle:@"产品",
+                                 KeyTitle:@"商城",
                               },
                              @{
                                
                                  KeyImageName:@"tab_service_normal",
                                  KeySelectedImageName:@"tab_service_selected",
-                                 KeyTitle:@"商城",
+                                 KeyTitle:@"服务",
                                },
                              @{
                                 
