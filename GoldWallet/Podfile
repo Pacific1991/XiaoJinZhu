@@ -1,0 +1,47 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GoldWallet' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for GoldWallet
+  pod 'Masonry', '~> 1.0.2'
+  pod 'SDWebImage', '~> 4.0.0'
+  pod 'MJExtension', '~> 3.0.13'
+  pod 'Toast', '~> 3.1.0'
+  pod 'AFNetworking', '~> 3.1.0'
+  pod 'FMDB', '~> 2.7.2'
+  pod 'MJRefresh', '~> 3.1.12'
+  pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'ReactiveObjC', '~> 3.0.0'            # RAC
+  pod 'YYText', '~> 1.0.7'                  # YY框架
+  pod 'YYImage', '~> 1.0.4'
+  pod 'YYModel'                             # YYModel ji
+  pod 'lottie-ios-extension', '~> 1.5.1.1'  # 动画
+  pod 'JPush'                               # 极光推送
+  pod 'WHC_ModelSqliteKit'                  # SQLite
+  pod 'WHC_ModelSqliteKit/SQLCipher'        # SQLite加密
+  pod 'SQLCipher', '~> 3.4.1'               # SQLite加密
+  pod 'IQKeyboardManager'                   # 键盘
+  pod 'SVProgressHUD'
+  pod 'UMengUShare/UI'                      # 友盟
+  pod 'UMengUShare/Social/WeChat'
+  pod 'UMengUShare/Social/Sina'
+  pod 'UMengUShare/Social/AlipayShare'
+  pod 'UMengUShare/Social/Email'
+  pod 'UMengUShare/Social/SMS'
+  pod 'UMengUShare/Social/QQ'
+	
+
+  target 'GoldWalletTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GoldWalletUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

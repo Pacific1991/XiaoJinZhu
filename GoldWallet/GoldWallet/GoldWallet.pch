@@ -1,0 +1,82 @@
+//
+//  GoldWallet.pch
+//  GoldWallet
+//
+//  Created by sdd on 2018/1/10.
+//  Copyright © 2018年 SYB. All rights reserved.
+//
+
+#ifndef GoldWallet_pch
+#define GoldWallet_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+
+#import <Foundation/Foundation.h>
+
+//判断对象是否为空
+NS_INLINE BOOL isNullOrNil(id object) {
+    if (object == nil || [object isKindOfClass:[NSNull class]]) {
+        return YES;
+    } else if ([object isKindOfClass:[NSString class]]) {
+        return ![object length];
+    } else if ([object isKindOfClass:[NSNumber class]]) {
+        return [object isEqualToNumber:@0];
+    }
+    return NO;
+}
+
+/**当前屏幕宽度*/
+NS_INLINE CGFloat kScreenWidth() {
+    return [UIScreen mainScreen].bounds.size.width;
+}
+/**当前屏幕高度*/
+NS_INLINE CGFloat kScreenHeight() {
+    return [UIScreen mainScreen].bounds.size.height;
+}
+
+NS_INLINE UIWindow* kWindow() {
+    return [[UIApplication sharedApplication] keyWindow];
+}
+
+/**屏幕比例缩放*/
+NS_INLINE CGFloat kWidthScale() {
+    return kScreenWidth() / 375.0;
+}
+
+NS_INLINE CGFloat kHeightScale() {
+    return kScreenHeight() / 667.0;
+}
+
+// IOS版本
+NS_INLINE float kIOSVersion() {
+    return [[[UIDevice currentDevice] systemVersion] floatValue];
+}
+
+NS_INLINE BOOL IOS10_OR_LATER() {
+    return kIOSVersion() >= 10.0;
+}
+NS_INLINE BOOL IOS9_OR_LATER() {
+    return kIOSVersion() >= 9.0;
+}
+NS_INLINE BOOL IOS8_OR_LATER() {
+    return kIOSVersion() >= 8.0;
+}
+
+/**角度转弧度*/
+NS_INLINE CGFloat angle2Radion(CGFloat angle) {
+    return angle / 180.0 * M_PI;
+}
+
+#import "HCConstString.h"
+#import "HCFont.h"
+#import "HCColor.h"
+#import "HCHeader.h"
+#import "HCServerInterface.h"
+#import "HCGeneralMacro.h"
+
+#endif /* GoldWallet_pch */
+#endif
